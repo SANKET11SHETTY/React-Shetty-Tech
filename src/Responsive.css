@@ -1,0 +1,150 @@
+@media screen and (max-width: 452px) {
+    body {
+      background-image: linear-gradient(to bottom, #169aff, #a5feef);
+    }
+  
+    .left-section {
+      padding: 0px 0px 0px 0px;
+    }
+    .left-top h1 {
+      font-size: 35px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      margin-top: -0%;
+    }
+    .border-topss {
+      margin-right: 15px !important;
+      margin-top: -22%;
+      /* margin-left: 10%; */
+    }
+  
+    .left-middle {
+      margin-top: -30px;
+      margin-left: -10%;
+    }
+  
+    .left-middle p {
+      /* padding-top :100px; */
+      width: 70%;
+      text-align: start;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 1px;
+      padding-top: -30px;
+    }
+  
+    .left-btn a {
+      margin-left: 2%;
+    }
+    .img-sec img {
+      width: 90%;
+      /* height: 60%; */
+    }
+  
+    .moders {
+      margin-left: 10% !important;
+    }
+  
+    /* Services page css */
+  
+    .main-services {
+      margin-left: -20px !important;
+    }
+  
+    .top-services h1 {
+      letter-spacing: 5px;
+      font-weight: 900;
+      font-size: 35px;
+      padding-top: 20px;
+    }
+  
+    .top-services p {
+      font-size: 15px;
+    }
+  
+    .services-list {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+  
+    .services-list p {
+      max-width: 80%;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+  
+    /* About us page css */
+  
+    .main-about {
+      padding: 30px 0px 0px 20px;
+    }
+  
+    .left-about {
+      padding-right: 20px !important;
+    }
+  
+    .left-about h1 {
+      letter-spacing: 5px;
+      font-weight: 900;
+      word-spacing: 7px;
+    }
+  
+    .img-div-about {
+      padding-top: 50px;
+    }
+  
+    /* Contact Us page css */
+  
+    .top-section h1 {
+      letter-spacing: 4px;
+      font-size: 45px;
+      padding-bottom: 10px;
+    }
+  
+    .top-section p {
+      letter-spacing: 2px;
+      font-size: 20px;
+      padding: 0px 10px;
+    }
+
+    .left-mid-top h5{
+      padding-top: 35px !important;
+    }
+  
+    .mid-section {
+      padding: 0px 20px !important;
+      border-top: 1px solid rgba(228, 228, 228, 0.346);
+      max-width: 95%;
+    }
+  
+    .mid-section-left {
+      padding-right: 0px !important;
+    }
+  
+    .mid-section h5 {
+      letter-spacing: 2px;
+      font-weight: 700;
+      font-size: 22px;
+    }
+  
+    .mail-p {
+      line-height: 10px;
+    }
+  
+    .mid-section p {
+      letter-spacing: 1px;
+      font-size: 17px;
+      font-weight: 300;
+    }
+  
+    .form-section {
+      border-top: 1px solid rgba(228, 228, 228, 0.539);
+      max-width: 100%;
+      padding-top: 50px;
+    }
+  
+    .form-section label {
+      font-size: 20px;
+    }
+  }
+  

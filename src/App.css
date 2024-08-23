@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Mukta", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #169aff, #a5feef);
+  color: white !important;
+  font-family: "Mukta", sans-serif !important;
+}
+.darkModer {
+  background: black !important;
+}
+
+
+.darkModer .services-list{
+  box-shadow: white 0px 5px 15px;
+}
+.darkmoding{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+}
+
+.darkmoding svg:last-child{
+  display: none;
+}
+
+.darkModer .darkmoding svg:first-child{
+  display: none;
+}
+.darkModer .darkmoding svg:last-child{
+  display: block;
+  }
+
+  .darkModer .darkmoding{
+    background-color: rgb(105, 105, 105);
+
+  }
+
+.navlinks1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: white !important;
+}
+.navbar ul li {
+  letter-spacing: 2px;
+}
+
+.navbar ul li a {
+  color: white !important;
+}
+.navbar ul li a:hover {
+  color: yellow !important;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+.last-nav {
+  justify-content: end;
+}
+
+.main-div {
+  height: 100vh;
+  color: white;
+}
+
+.main-div .main-container {
+  height: 100%;
+}
+
+.main-row {
+  height: 100%;
+}
+.main-div .main-container .right-section {
+  height: 100%;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  /* padding: 0px 100px */
+  padding: 0px 50px;
+}
+
+.left-top {
+  /* margin-top: -500px; */
+  padding-bottom: 50px;
+}
+
+.left-top h1 {
+  font-size: 60px;
+  font-weight: 700;
+  /* margin-bottom: -200px; */
+  /* margin-top: -200; */
+  letter-spacing: 3px;
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+}
+.left-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-topss {
+  border-top: 5px solid white !important;
+  width: 70px;
+  margin-right: 15px !important;
+  margin-top: -11%;
+  margin-left: 15%;
+  border-radius: 15px;
+}
+
+.left-middle p {
+  /* padding-top :100px; */
+  width: 70%;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+/* .left-btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ } */
+
+.left-btn a {
+  letter-spacing: 2px;
+  font-size: 20px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important; */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 20%;
+}
+
+.img-div {
+  margin-top: -5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-sec img {
+  width: 80%;
+  height: 60%;
+}
+
+
+
+footer {
+  letter-spacing: 3px;
+  text-align: center;
+  /* font-family: "Mukta", sans-serif  !important; */
+  font-family: monospace !important;
+}
+
+.moders {
+  margin-left: 50% !important;
+}
+
+/* Contact Us page css */
+
+.top-section h1 {
+  letter-spacing: 3px;
+  font-size: 50px;
+  word-spacing: 5px;
+  font-weight: 800;
+}
+
+.top-section p {
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.mid-section {
+  padding: 0px 170px !important;
+}
+
+.mid-section-left {
+  padding-right: 70px !important;
+}
+
+.mid-section h5 {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.mail-p {
+  line-height: 10px;
+}
+
+.mid-section p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.mid-section label {
+  letter-spacing: 3px;
+}
+
+.btn-form button {
+  letter-spacing: 1px;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* About us page css */
+
+.main-about {
+  padding: 50px 100px 0px 50px;
+}
+
+.left-about {
+  padding-right: 140px !important;
+}
+
+.left-about h1 {
+  letter-spacing: 5px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif !important;
+}
+.left-about h3 {
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.left-about p {
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 300;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.img-div-about {
+  /* margin-top: 5px; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-div-about img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Services page css */
+
+.top-services h1 {
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 45px;
+  word-spacing: 7px;
+}
+
+.top-services p {
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.img-div-services {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div-services i {
+  color: black;
+  font-size: 35px;
+}
+
+/* .main-services{
+   margin-right: -50px !important;
+} */
+
+.services-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  width: 80%;
+  padding: 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .services-list2{
+   box-shadow: white 0px 5px 15px;
+} */
+
+#skt{
+  letter-spacing: 2px;
+color: deeppink !important;
+}
+
+.services-list p {
+  max-width: 70%;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
