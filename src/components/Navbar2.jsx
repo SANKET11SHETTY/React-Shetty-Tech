@@ -8,7 +8,9 @@ const Navbar2 = () => {
           <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid ">
               <a className="navbar-brand ps-3" href="#">
-                <img src="/ImagesHome/logo1.png" alt=""/>
+{/*                 <img src="/ImagesHome/logo1.png" alt=""/> */}
+                    <img src="https://cdn.pixabay.com/photo/2017/01/31/23/42/animal-2028258_640.png" alt="">
+
               </a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
