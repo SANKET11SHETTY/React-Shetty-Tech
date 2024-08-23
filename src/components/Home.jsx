@@ -36,7 +36,7 @@ const Home = () => {
       <div className="img-sec img-div  ">
 
 {/*         <img src="/ImagesHome/pngegg.png" alt="" /> */}
-            <img src="https://cdn.pixabay.com/photo/2024/03/31/14/01/ai-generated-8666751_640.png" alt="" >
+            <img src="https://cdn.pixabay.com/photo/2024/03/31/14/01/ai-generated-8666751_640.png" alt="web developer" />
 
       </div>
     </div>
