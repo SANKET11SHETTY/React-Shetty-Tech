@@ -43,7 +43,7 @@ const About = () => {
         <div className="col-lg-6 right-section">
           <div className="img-sec img-div img-div-about">
 {/*             <img src="/ImagesHome/sdev.png" alt="" /> */}
-                 <img src="https://cdn.pixabay.com/photo/2024/03/31/14/00/ai-generated-8666749_640.png" alt="" />
+                 <img src="https://cdn.pixabay.com/photo/2024/03/31/14/00/ai-generated-8666749_640.png" alt="Front End Developer" />
 
           </div>
         </div>
