@@ -159,7 +159,7 @@ const ContactUs = () => {
               <label htmlFor="name" className="form-label">NAME</label>
               <input type="text" className="form-control" id="name" name="name" value={userData.name}
                     onChange={postUserData}
-                  /> />
+                   />
             </div>
             <div className="mb-3">
               <label htmlFor="exampleFormControlInput1" className="form-label"
@@ -172,8 +172,7 @@ const ContactUs = () => {
                 name="email"
                value={userData.email}
                     onChange={postUserData}
-                  />
-              />
+            />
             </div>
             <div className="mb-3">
               <label htmlFor="exampleFormControlInput1" className="form-label"
@@ -187,7 +186,6 @@ const ContactUs = () => {
                value={userData.number}
                     onChange={postUserData}
                   />
-              />
             </div>
             <div className="mb-3">
               <label htmlFor="exampleFormControlTextarea1" className="form-label"
@@ -200,7 +198,7 @@ const ContactUs = () => {
                 name="message"
                value={userData.message}
                     onChange={postUserData}
-                  />
+                  
               ></textarea>
             </div>
             <div className="btn-form pb-4">
